@@ -1,30 +1,79 @@
-.header {
-  width: 80%;
-  margin: 0 auto;
-}
-
-header::after {
-  content: "";
-  display: table;
-  clear: both;
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@500&display=swap");
+.container {
+  height: 100px;
+  display: flex;
+  justify-content: space-between;
+  border: 1px black solid;
+  background-image: linear-gradient(
+    to right bottom,
+    #000000,
+    #230716,
+    #3a042c,
+    #4b004a,
+    #520571,
+    #551988,
+    #5429a0,
+    #4e38b9,
+    #5f45c0,
+    #6e52c8,
+    #7d5fcf,
+    #8b6dd7
+  );
+  align-items: center;
+  padding: 5px 30px;
 }
 
 .logo {
-  float: left;
+  width: 100px;
+  height: 70px;
+  margin: 20px;
 }
 
-.nav {
-  float: right;
+nav {
+  flex-basis: 50%;
 }
 
-.nav ul {
-  margin: 0;
-  padding: 0;
+nav ul {
   list-style: none;
 }
 
-nav li {
+nav ul li {
   display: inline-block;
-  margin-left: 12%;
-  padding-top: 0%;
+  padding: 7%;
+}
+nav ul li a {
+  text-decoration: none;
+  color: white;
+  font-family: "Montserrat", sans-serif;
+  font-weight: 500;
+  font-size: 18px;
+  text-decoration: none;
+  transition: all 0.4s ease 0s;
+}
+
+nav ul li a:hover {
+  color: #4b004a;
+}
+
+.social_networks {
+  flex-basis: 25%;
+}
+
+.social_networks ul li {
+  display: inline-block;
+  margin: 10px 10px;
+}
+
+.fb {
+  width: 40px;
+  height: 40px;
+  margin-bottom: 5px;
+}
+.insta {
+  width: 47px;
+  height: 50px;
+}
+.yt {
+  width: 52px;
+  height: 52px;
 }
