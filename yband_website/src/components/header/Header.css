@@ -1,5 +1,5 @@
 @import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@500&display=swap");
-.container {
+.container_header {
   height: 100px;
   display: flex;
   justify-content: space-between;
@@ -39,7 +39,7 @@ nav ul {
 
 nav ul li {
   display: inline-block;
-  padding: 7%;
+  padding: 4%;
 }
 nav ul li a {
   text-decoration: none;

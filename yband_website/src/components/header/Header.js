@@ -8,7 +8,7 @@ import ytLogo from "../../assets/yt_icon.png";
 const Header = () => {
   return (
     <header>
-      <div className="container">
+      <div className="container_header">
         <div className="img_holder">
           <a href="#">
             <img alt="logo" src={logo} className="logo"></img>
@@ -18,16 +18,16 @@ const Header = () => {
         <nav>
           <ul>
             <li>
-              <a href="#">Home</a>
+              <a href="#">Početna</a>
             </li>
             <li>
-              <a href="#">About</a>
+              <a href="#">Video galerija</a>
             </li>
             <li>
-              <a href="#">Pricing</a>
+              <a href="#">Termini</a>
             </li>
             <li>
-              <a href="#">Contact</a>
+              <a href="#">Kontakt</a>
             </li>
           </ul>
         </nav>

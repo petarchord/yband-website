@@ -1,0 +1,14 @@
+.container_slider {
+  position: absolute;
+  margin: 0;
+  background-image: url("../../assets/cover.jpg");
+  height: 1000px;
+  width: 100%;
+  background-size: cover;
+}
+
+.cover_img {
+  height: 1000px;
+  width: 100%;
+  filter: grayscale(1);
+}
