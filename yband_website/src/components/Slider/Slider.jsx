@@ -1,9 +1,10 @@
 import React from "react";
 import cover from "../../assets/cover.jpg";
-import "./Slider.css";
+
+import styles from "./Slider.module.css";
 
 const Slider = () => {
-  return <div className="container_slider"></div>;
+  return <div className={styles.container}></div>;
 };
 
 export default Slider;

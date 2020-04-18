@@ -1,12 +1,10 @@
 import React from "react";
-import Header from "../src/components/header/Header";
-import Slider from "../src/components/slider/Slider";
-import Footer from "../src/components/footer/Footer";
-import "./App.css";
+import { Header, Slider, Footer } from "./components";
+import styles from "./App.module.css";
 
 function App() {
   return (
-    <div className="App">
+    <div className={styles.container}>
       <Header />
       <Slider />
       <Footer />

@@ -1,5 +1,5 @@
 @import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@500&display=swap");
-.container_header {
+.container {
   height: 100px;
   display: flex;
   justify-content: space-between;
@@ -76,4 +76,14 @@ nav ul li a:hover {
 .yt {
   width: 52px;
   height: 52px;
+}
+
+.fb:hover {
+  filter: invert(1);
+}
+.insta:hover {
+  filter: invert(1);
+}
+.yt:hover {
+  filter: invert(1);
 }
