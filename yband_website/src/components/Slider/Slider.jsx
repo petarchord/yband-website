@@ -9,6 +9,15 @@ const Slider = () => {
   return (
     <section>
       <div className={styles.container}>
+        <div className={styles.welcome_text}>
+          <p>
+            Učinite vaše slavlje
+            <br /> nezaboravnim!
+          </p>
+        </div>
+        <div className={styles.welcome_btn}>
+          <button>Angažuj nas odmah...</button>
+        </div>
         <div className={styles.about_us}>
           <div className={styles.content}>
             <h1>O nama</h1>

@@ -19,16 +19,16 @@ const Header = () => {
         <nav>
           <ul>
             <li>
-              <a href="#">Početna</a>
+              <a href="#">POČETNA</a>
             </li>
             <li>
-              <a href="#">Video galerija</a>
+              <a href="#">VIDEO GALERIJA</a>
             </li>
             <li>
-              <a href="#">Termini</a>
+              <a href="#">TERMINI</a>
             </li>
             <li>
-              <a href="#">Kontakt</a>
+              <a href="#">KONTAKT</a>
             </li>
           </ul>
         </nav>

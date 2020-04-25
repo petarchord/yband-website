@@ -1,10 +1,12 @@
+@import url("https://fonts.googleapis.com/css2?family=Courgette&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@500&display=swap");
 .container {
   position: absolute;
   margin: 0;
-  background-image: url("../../assets/cover.jpg");
+  /* background-image: url("../../assets/cover.jpg"); */
   height: 1000px;
   width: 100%;
-  background-size: cover;
+  /* background-size: cover; */
 }
 
 .cover_img {
@@ -17,11 +19,12 @@
   background: black;
   text-align: center;
   color: white;
-  top: 90%;
+  top: 6%;
   position: relative;
   font-family: "Montserrat", sans-serif;
   font-weight: 500;
-  font-size: 17px;
+  font-size: 21px;
+  line-height: 1.6;
 }
 
 .content {
@@ -55,4 +58,46 @@
 
 .content_holder img:hover {
   transform: scale(1.1);
+}
+
+.welcome_text {
+  font-size: 80px;
+  text-align: center;
+  line-height: 1.1;
+  font-family: "Courgette", cursive;
+  animation-name: welcome_text;
+  animation-duration: 4s;
+  animation-fill-mode: forwards;
+  width: fit-content;
+  margin-left: 24rem;
+  margin-top: 26rem;
+  padding: 0px 24px;
+  background: rgba(32, 32, 32, 0.7);
+}
+
+@keyframes welcome_text {
+  0% {
+    color: darkslategray;
+    opacity: 0;
+  }
+  100% {
+    color: wheat;
+    opacity: 1;
+  }
+}
+
+.welcome_btn {
+  text-align: center;
+  margin-top: 12%;
+}
+
+.welcome_btn button {
+  height: 70px;
+  width: 280px;
+  font-size: 21px;
+  color: white;
+  background: rgba(32, 32, 32, 0.5);
+}
+.welcome_btn button:hover {
+  cursor: pointer;
 }

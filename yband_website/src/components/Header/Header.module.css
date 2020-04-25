@@ -3,8 +3,7 @@
   height: 100px;
   display: flex;
   justify-content: space-between;
-  border: 1px black solid;
-  background-image: linear-gradient(
+  /* background-image: linear-gradient(
     to right bottom,
     #000000,
     #230716,
@@ -18,7 +17,8 @@
     #6e52c8,
     #7d5fcf,
     #8b6dd7
-  );
+  ); */
+  background: rgba(32, 32, 32, 0.5);
   align-items: center;
   padding: 5px 30px;
 }
@@ -30,7 +30,7 @@
 }
 
 .img_holder {
-  flex-basis: 30%;
+  flex-basis: 25%;
 }
 
 nav {
@@ -56,11 +56,11 @@ nav ul li a {
 }
 
 nav ul li a:hover {
-  color: #4b004a;
+  color: rgb(32, 32, 32);
 }
 
 .social_networks {
-  flex-basis: 25%;
+  flex-basis: 20%;
 }
 
 .social_networks ul li {
