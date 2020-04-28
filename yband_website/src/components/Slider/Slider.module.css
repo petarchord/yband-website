@@ -101,3 +101,44 @@
 .welcome_btn button:hover {
   cursor: pointer;
 }
+
+.role_btn {
+  border: solid 1px;
+  padding: 3px;
+  margin: 40px;
+  background: darkslategray;
+}
+
+.collaborators {
+  margin-top: 2%;
+  padding: 2px 2px;
+}
+
+.coll_wrapper {
+  padding: 5% 18%;
+}
+
+.coll_wrapper h2 {
+  font-size: 50px;
+  border-bottom: solid 1px;
+  padding-bottom: 30px;
+}
+
+.collab_holder {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.collab_item {
+  flex-basis: 25%;
+}
+
+.collab_item img {
+  height: 400px;
+  width: 300px;
+}
+
+.collab_item h5 {
+  font-size: 25px;
+}

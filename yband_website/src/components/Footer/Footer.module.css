@@ -3,9 +3,62 @@
   position: absolute;
   background: rgba(32, 32, 32, 1);
   width: 100%;
-  height: 70px;
+  height: 150px;
   color: white;
   font-size: 20px;
-  margin-top: 124rem;
-  padding-top: 40px;
+  margin-top: 200rem;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.layer_logo {
+  flex-basis: 7%;
+  padding-right: 15%;
+}
+
+.layer_logo img {
+  height: 80px;
+  width: 110px;
+}
+
+.layer_footer {
+  flex-basis: 25%;
+}
+
+.social_network {
+  flex-basis: 20%;
+}
+
+.social_network ul {
+  display: flex;
+  list-style: none;
+}
+
+.social_network ul li {
+  margin: 0px 10px;
+}
+
+.fb {
+  width: 40px;
+  height: 40px;
+  margin-top: 4px;
+}
+.insta {
+  width: 47px;
+  height: 50px;
+}
+.yt {
+  width: 52px;
+  height: 52px;
+}
+
+.fb:hover {
+  filter: invert(1);
+}
+.insta:hover {
+  filter: invert(1);
+}
+.yt:hover {
+  filter: invert(1);
 }

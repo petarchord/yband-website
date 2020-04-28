@@ -3,6 +3,9 @@ import cover from "../../assets/cover.jpg";
 import dusan from "../../assets/dusan.jpg";
 import mina from "../../assets/mina.jpg";
 import petar from "../../assets/petar.jpg";
+import dj from "../../assets/dj.jpg";
+import machine from "../../assets/dim_masina.jpg";
+import decoration from "../../assets/dekoracija.jpg";
 import styles from "./Slider.module.css";
 
 const Slider = () => {
@@ -33,6 +36,7 @@ const Slider = () => {
             <div className={styles.content_holder}>
               <img src={dusan} />
               <h2>Dusan</h2>
+              <div className={styles.role_btn}>Klavijatura</div>
               <p>
                 Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
                 eiusmod tempor incididunt ut labore et dolore magna aliqua.
@@ -42,6 +46,7 @@ const Slider = () => {
             <div className={styles.content_holder}>
               <img src={mina} />
               <h2>Mina</h2>
+              <div className={styles.role_btn}>Vokal</div>
               <p>
                 At quis risus sed vulputate odio ut enim. Enim blandit volutpat
                 maecenas volutpat blandit aliquam etiam. Urna nunc id cursus
@@ -51,11 +56,37 @@ const Slider = () => {
             <div className={styles.content_holder}>
               <img src={petar} />
               <h2>Petar</h2>
+              <div className={styles.role_btn}>Vokal</div>
               <p>
                 Maecenas volutpat blandit aliquam etiam erat velit scelerisque.
                 Orci ac auctor augue mauris augue neque gravida in. Odio morbi
                 quis commodo odio aenean sed.
               </p>
+            </div>
+          </div>
+          <div className={styles.collaborators}>
+            <div className={styles.coll_wrapper}>
+              <h2>Saradnici</h2>
+              <p>
+                Ukoliko želite da pored našeg benda uključite DJ-a , Sax ili
+                Violinu. Tu su naši saradnici koji će se pobrinuti da atmosferu
+                dovedemo do usijanja. A gde ima dima , tu ima i vatre.
+              </p>
+            </div>
+            <div className={styles.collab_holder}>
+              <div className={styles.collab_item}>
+                <img src={dj} alt="" />
+                <h5>DJ</h5>
+              </div>
+
+              <div className={styles.collab_item}>
+                <img src={decoration} alt="" />
+                <h5>Scenskre fontane i dekoracija</h5>
+              </div>
+              <div className={styles.collab_item}>
+                <img src={machine} alt="" />
+                <h5>Dim mašina</h5>
+              </div>
             </div>
           </div>
         </div>
