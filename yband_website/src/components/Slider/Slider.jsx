@@ -64,6 +64,30 @@ const Slider = () => {
               </p>
             </div>
           </div>
+          <div className={styles.clients}>
+            <h1>Zadovoljni klijenti</h1>
+
+            <div className={styles.clients_holder}>
+              <div className={styles.clients_item}>
+                <img src="" alt="" />
+                <h5>Danica Stanisavljević</h5>
+                <p>
+                  Bili ste fenomenalni , svaki dogovor je ispostovan. Jos jednom
+                  hvala vam sto ste mi ulepsali vece.
+                </p>
+              </div>
+              <div className={styles.clients_item}>
+                <img src="" alt="" />
+                <h5></h5>
+                <p></p>
+              </div>
+              <div className={styles.clients_item}>
+                <img src="" alt="" />
+                <h5></h5>
+                <p></p>
+              </div>
+            </div>
+          </div>
           <div className={styles.collaborators}>
             <div className={styles.coll_wrapper}>
               <h2>Saradnici</h2>

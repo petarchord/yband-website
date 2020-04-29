@@ -132,6 +132,7 @@
 
 .collab_item {
   flex-basis: 25%;
+  padding-bottom: 25px;
 }
 
 .collab_item img {
@@ -141,4 +142,13 @@
 
 .collab_item h5 {
   font-size: 25px;
+}
+
+.clients {
+}
+
+.clients_holder {
+}
+
+.clients_item {
 }
