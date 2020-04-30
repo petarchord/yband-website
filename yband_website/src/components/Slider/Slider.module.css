@@ -180,4 +180,5 @@
 .clients_item p {
   width: 50%;
   margin-left: 3rem;
+  font-style: italic;
 }
