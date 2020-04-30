@@ -145,10 +145,39 @@
 }
 
 .clients {
+  margin-top: 6rem;
+}
+
+.clients h1 {
+  font-size: 50px;
 }
 
 .clients_holder {
 }
 
 .clients_item {
+}
+
+.img_wrapper {
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+  margin: 3rem;
+}
+
+.img_wrapper img {
+  height: 130px;
+  width: 130px;
+  border-radius: 50%;
+  margin: 0 2rem;
+  border: solid 1px white;
+}
+
+.img_wrapper h5 {
+  font-size: 20px;
+}
+
+.clients_item p {
+  width: 50%;
+  margin-left: 3rem;
 }

@@ -1,5 +1,6 @@
 import React from "react";
 import cover from "../../assets/cover.jpg";
+import client_1 from "../../assets/danica.jpg";
 import dusan from "../../assets/dusan.jpg";
 import mina from "../../assets/mina.jpg";
 import petar from "../../assets/petar.jpg";
@@ -69,11 +70,13 @@ const Slider = () => {
 
             <div className={styles.clients_holder}>
               <div className={styles.clients_item}>
-                <img src="" alt="" />
-                <h5>Danica Stanisavljević</h5>
+                <div className={styles.img_wrapper}>
+                  <img src={client_1} alt="" />
+                  <h5>Danica Stanisavljević</h5>
+                </div>
                 <p>
-                  Bili ste fenomenalni , svaki dogovor je ispostovan. Jos jednom
-                  hvala vam sto ste mi ulepsali vece.
+                  "Bili ste fenomenalni , svaki dogovor je ispostovan. Jos
+                  jednom hvala vam sto ste mi ulepsali vece!"
                 </p>
               </div>
               <div className={styles.clients_item}>
