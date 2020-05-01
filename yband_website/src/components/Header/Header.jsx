@@ -1,5 +1,6 @@
 import React from "react";
 import logo from "../../assets/logo_white.png";
+import phone from "../../assets/phone_icon.png";
 import fbLogo from "../../assets/fb_icon.png";
 import instaLogo from "../../assets/insta_icon.png";
 import ytLogo from "../../assets/yt_icon.png";
@@ -15,7 +16,10 @@ const Header = () => {
             <img alt="logo" src={logo} className={styles.logo}></img>
           </a>
         </div>
-
+        <div className={styles.phone_wrapper}>
+          <img src={phone} alt="" />
+          <p>(+381)64/54-77-689 (+381)61/80-87-062</p>
+        </div>
         <nav>
           <ul>
             <li>

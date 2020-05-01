@@ -2,6 +2,7 @@ import React from "react";
 import cover from "../../assets/cover.jpg";
 import client_1 from "../../assets/danica.jpg";
 import client_2 from "../../assets/stefan.jpg";
+import client_3 from "../../assets/peca.jpg";
 import dusan from "../../assets/dusan.jpg";
 import mina from "../../assets/mina.jpg";
 import petar from "../../assets/petar.jpg";
@@ -36,7 +37,9 @@ const Slider = () => {
 
           <div className={styles.img_holder}>
             <div className={styles.content_holder}>
-              <img src={dusan} />
+              <div className={styles.img_hover_zoom}>
+                <img src={dusan} />
+              </div>
               <h2>Dusan</h2>
               <div className={styles.role_btn}>Klavijatura</div>
               <p>
@@ -46,7 +49,9 @@ const Slider = () => {
               </p>
             </div>
             <div className={styles.content_holder}>
-              <img src={mina} />
+              <div className={styles.img_hover_zoom}>
+                <img src={mina} />
+              </div>
               <h2>Mina</h2>
               <div className={styles.role_btn}>Vokal</div>
               <p>
@@ -56,7 +61,9 @@ const Slider = () => {
               </p>
             </div>
             <div className={styles.content_holder}>
-              <img src={petar} />
+              <div className={styles.img_hover_zoom}>
+                <img src={petar} />
+              </div>
               <h2>Petar</h2>
               <div className={styles.role_btn}>Vokal</div>
               <p>
@@ -67,7 +74,9 @@ const Slider = () => {
             </div>
           </div>
           <div className={styles.clients}>
-            <h1>Zadovoljni klijenti</h1>
+            <div className={styles.header_wrapper}>
+              <h1>Zadovoljni klijenti</h1>
+            </div>
 
             <div className={styles.clients_holder}>
               <div className={styles.clients_item}>
@@ -91,9 +100,17 @@ const Slider = () => {
                 </p>
               </div>
               <div className={styles.clients_item}>
-                <img src="" alt="" />
-                <h5></h5>
-                <p></p>
+                <div className={styles.img_wrapper}>
+                  <img src={client_3} alt="" />
+                  <h5>Petar Stojković</h5>
+                </div>
+                <p>
+                  "Po preporuci svojih prijatelja, svoj 18.rodjendan ulepsao sam
+                  repertoarom Y benda i nisam pogrešio. Prolazeći kroz sve
+                  žanrove, ova grupa mladih ljudi je uspela da podigne atmosferu
+                  do vrhunca. Gosti su bili prezadovoljni. Svima bih preporučio
+                  da angažuju ovaj bend jer garantuju odličan provod."
+                </p>
               </div>
             </div>
           </div>
@@ -122,6 +139,16 @@ const Slider = () => {
               </div>
             </div>
           </div>
+          {/* <div>
+            <iframe
+              width="560"
+              height="315"
+              src="https://www.youtube.com/embed/diD_t5Hf4PM"
+              frameborder="0"
+              allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture"
+              allowfullscreen
+            ></iframe>
+          </div> */}
         </div>
       </div>
     </section>

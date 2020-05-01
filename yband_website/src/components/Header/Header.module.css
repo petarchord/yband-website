@@ -36,8 +36,26 @@ header {
   margin: 20px;
 }
 
+.phone_wrapper {
+  flex-basis: 15%;
+  display: flex;
+  align-items: center;
+  justify-content: start;
+}
+
+.phone_wrapper img {
+  height: 30px;
+  width: 30px;
+  margin: 0 1rem;
+}
+
+.phone_wrapper p {
+  font-size: 19px;
+  color: sandybrown;
+}
+
 .img_holder {
-  flex-basis: 25%;
+  flex-basis: 12%;
 }
 
 nav {
@@ -67,7 +85,7 @@ nav ul li a:hover {
 }
 
 .social_networks {
-  flex-basis: 20%;
+  flex-basis: 18%;
 }
 
 .social_networks ul li {
