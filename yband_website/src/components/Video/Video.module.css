@@ -1,0 +1,60 @@
+.container {
+  background: url(/static/media/video_cover.433e1d53.jpg);
+  background-size: cover;
+  position: absolute;
+  width: 100%;
+  height: 1000px;
+  margin: 0 0;
+}
+
+.header_holder {
+  text-align: center;
+  position: relative;
+  margin-top: 27rem;
+}
+
+.header_holder h1 {
+  background: rgba(32, 32, 32, 0.7);
+  width: fit-content;
+  margin-left: 15rem;
+  font-size: 130px;
+  padding: 0px 5rem;
+  color: ghostwhite;
+  /* margin: 0; */
+  margin-bottom: 0;
+}
+
+.header_holder p {
+  color: ghostwhite;
+  font-size: 26px;
+  background: rgba(32, 32, 32, 0.7);
+  width: fit-content;
+  margin-left: 27rem;
+  padding: 5px 10px;
+}
+
+.video_container {
+  background: black;
+  margin-top: 20rem;
+}
+
+.header_wrapper {
+  padding: 5% 18%;
+}
+.header_wrapper h1 {
+  font-size: 60px;
+  border-bottom: solid 1px;
+  padding-bottom: 30px;
+  color: white;
+  text-align: center;
+}
+
+.video_holder {
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+}
+
+.video_item {
+  margin: 2rem;
+}

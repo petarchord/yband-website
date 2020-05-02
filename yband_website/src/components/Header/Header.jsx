@@ -18,7 +18,7 @@ const Header = () => {
         </div>
         <div className={styles.phone_wrapper}>
           <img src={phone} alt="" />
-          <p>(+381)64/54-77-689 (+381)61/80-87-062</p>
+          <p>(+381)64/54-77-689 </p>
         </div>
         <nav>
           <ul>
