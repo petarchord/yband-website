@@ -85,8 +85,10 @@ const Slider = () => {
                   <h5>Danica Stanisavljević</h5>
                 </div>
                 <p>
-                  "Bili ste fenomenalni , svaki dogovor je ispoštovan. Još
-                  jednom hvala vam sto ste mi ulepšali veče!"
+                  "Hvala vam što ste mi uveličali proslavu punoletstva, vaša
+                  muzika je napravila odličnu atmosferu i ja sam time
+                  prezadovoljna. Veliki pozdrav za ceo bend i nadam se da ćemo i
+                  ubuduće da se družimo."
                 </p>
               </div>
               <div className={styles.clients_item}>

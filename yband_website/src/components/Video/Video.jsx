@@ -1,5 +1,9 @@
 import React from "react";
-import Header from "../Header/Header";
+import photo_1 from "../../assets/photo_1.jpg";
+import photo_2 from "../../assets/photo_2.jpg";
+import photo_3 from "../../assets/photo_3.jpg";
+import photo_4 from "../../assets/photo_4.jpg";
+
 import styles from "./Video.module.css";
 const Video = () => {
   return (
@@ -18,6 +22,16 @@ const Video = () => {
               width="560"
               height="315"
               src="https://www.youtube.com/embed/8a-bVz2rQEs"
+              frameborder="0"
+              allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture"
+              allowfullscreen
+            ></iframe>
+          </div>
+          <div className={styles.video_item}>
+            <iframe
+              width="560"
+              height="315"
+              src="https://www.youtube.com/embed/jNQR4tTNEOw"
               frameborder="0"
               allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture"
               allowfullscreen
@@ -52,6 +66,19 @@ const Video = () => {
               allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture"
               allowfullscreen
             ></iframe>
+          </div>
+        </div>
+      </div>
+      <div className={styles.photo_container}>
+        <div className={styles.header_wrapper}>
+          <h1>Foto galerija</h1>
+        </div>
+        <div className={styles.photo_holder}>
+          <div className={styles.photo_item}>
+            <img src={photo_1} alt="" />
+          </div>
+          <div className={styles.photo_item}>
+            <img src={photo_2} alt="" />
           </div>
         </div>
       </div>
