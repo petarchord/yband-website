@@ -81,6 +81,11 @@
 .photo_holder {
   display: flex;
   justify-content: space-around;
+  flex-wrap: wrap;
+}
+
+.photo_item {
+  margin: 1rem;
 }
 
 .photo_item:nth-child(1) img {
@@ -92,7 +97,14 @@
   width: 700px;
 }
 
-.photo_item {
+.photo_item:nth-child(3) img {
+  height: 500px;
+  width: 700px;
+}
+
+.photo_item:nth-child(4) img {
+  height: 500px;
+  width: 700px;
 }
 
 /* .photo_item img {

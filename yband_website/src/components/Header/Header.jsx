@@ -16,10 +16,10 @@ const Header = () => {
             <img alt="logo" src={logo} className={styles.logo}></img>
           </a>
         </div>
-        <div className={styles.phone_wrapper}>
+        {/* <div className={styles.phone_wrapper}>
           <img src={phone} alt="" />
           <p>(+381)64/54-77-689 </p>
-        </div>
+        </div> */}
         <nav>
           <ul>
             <li>

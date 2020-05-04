@@ -97,8 +97,9 @@ const Slider = () => {
                   <h5>Stefan Milanović</h5>
                 </div>
                 <p>
-                  "Bend je i više nego ispunio moja očekivanja. Profesionalni i
-                  energični, svi su bili oduševljeni. Sve preporuke!"
+                  "Atmosfera koju je napravio Y bend na mom rođendanu je bila
+                  fenomenalna. Gosti su bili oduševljeni. Jedva čekam naše
+                  sledeće druženje."
                 </p>
               </div>
               <div className={styles.clients_item}>

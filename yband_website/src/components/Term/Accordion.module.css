@@ -1,0 +1,43 @@
+.container {
+}
+
+.accordion_holder {
+}
+
+.accordion {
+  color: white;
+  cursor: pointer;
+  width: 100%;
+  padding: 15px;
+  font-size: 20px;
+  border: 1px solid white;
+  background: darkslategrey;
+  text-align: left;
+}
+
+.accordion:after {
+  content: "\02795";
+  font-size: 15px;
+  float: right;
+  margin-left: 5px;
+}
+
+.active,
+.accordion:hover {
+  background-color: #527e6a;
+}
+
+.active:after {
+  content: "\2796";
+  /* font-size: 15px;
+  float: right;
+  margin-left: 5px; */
+}
+
+.panel {
+  padding: 0 15px;
+  background-color: white;
+  overflow: hidden;
+  max-height: 0;
+  transition: max-height 0.2s ease-in-out;
+}

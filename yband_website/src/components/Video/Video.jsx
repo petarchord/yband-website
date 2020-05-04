@@ -80,6 +80,12 @@ const Video = () => {
           <div className={styles.photo_item}>
             <img src={photo_2} alt="" />
           </div>
+          <div className={styles.photo_item}>
+            <img src={photo_3} alt="" />
+          </div>
+          <div className={styles.photo_item}>
+            <img src={photo_4} alt="" />
+          </div>
         </div>
       </div>
     </div>
