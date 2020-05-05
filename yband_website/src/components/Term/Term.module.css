@@ -49,7 +49,11 @@
 }
 
 .term_containter {
+  margin-top: 15rem;
+  background: black;
 }
 
 .term_holder {
+  margin: 0rem;
+  padding: 3px 0px;
 }
