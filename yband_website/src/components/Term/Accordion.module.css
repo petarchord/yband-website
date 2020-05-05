@@ -13,9 +13,10 @@
   width: 100%;
   padding: 15px;
   font-size: 20px;
-  border: 1px solid white;
   background: darkslategrey;
   text-align: left;
+  margin-top: 10px;
+  border: none;
 }
 
 /* .accordion:after {
@@ -41,17 +42,17 @@
   overflow: hidden;
   max-height: 0;
   transition: max-height 0.2s ease-in-out;
-
   background-color: #527e6a;
-
   width: auto;
   text-align: left;
   color: white;
+  border: none;
+  font-size: 19px;
 }
 
 .sign {
   margin: 10px;
   font-size: 19px;
-  background: darkred;
+  background: linear-gradient(45deg, black, transparent);
   padding: 1px 5px;
 }
