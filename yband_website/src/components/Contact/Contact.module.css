@@ -47,3 +47,91 @@
   margin-left: 27rem;
   padding: 5px 10px;
 }
+
+.contact_holder {
+  margin-top: 18rem;
+  background: black;
+}
+
+.text_holder {
+  color: white;
+  text-align: center;
+  padding: 3rem;
+}
+
+.text_holder h5 {
+  font-size: 50px;
+}
+.text_holder p {
+  font-size: 25px;
+}
+.text_holder span {
+  font-size: 30px;
+  color: red;
+}
+
+.form_holder {
+  color: white;
+  font-size: 23px;
+}
+
+.input_holder {
+  display: flex;
+}
+
+.input_name {
+  display: flex;
+  flex-direction: column;
+  margin-left: 28%;
+}
+
+.input_name input {
+  height: 40px;
+  width: 340px;
+  margin: 6px 0px;
+  background: darkslategray;
+  color: white;
+  padding: 0px 12px;
+  font-size: 17px;
+}
+
+.input_email {
+  display: flex;
+  flex-direction: column;
+  margin-left: 2rem;
+}
+
+.input_email input {
+  height: 40px;
+  width: 340px;
+  margin: 6px 0px;
+  background: darkslategray;
+  color: white;
+  padding: 0px 12px;
+  font-size: 17px;
+}
+
+.input_message {
+  display: flex;
+  flex-direction: column;
+  margin-left: 28%;
+}
+
+.input_message textarea {
+  width: 742px;
+  margin: 6px 0px;
+  background: darkslategray;
+  color: white;
+  padding: 5px 12px;
+  font-size: 18px;
+}
+
+#submit {
+  margin-left: 28%;
+  height: 50px;
+  width: 165px;
+  color: white;
+  font-size: 18px;
+  background: darkslategray;
+  margin-top: 5px;
+}

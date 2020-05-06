@@ -3,6 +3,14 @@ import photo_1 from "../../assets/photo_1.jpg";
 import photo_2 from "../../assets/photo_2.jpg";
 import photo_3 from "../../assets/photo_3.jpg";
 import photo_4 from "../../assets/photo_4.jpg";
+import photo_5 from "../../assets/premier.jpg";
+import photo_6 from "../../assets/romansa.jpg";
+import photo_7 from "../../assets/diske.jpg";
+import photo_8 from "../../assets/diamant.jpg";
+import photo_9 from "../../assets/romansa_dete.JPG";
+import photo_10 from "../../assets/diamant_atmosfera.JPG";
+import photo_11 from "../../assets/mali_raj.JPG";
+import photo_12 from "../../assets/mali_raj_igra.JPG";
 
 import styles from "./Video.module.css";
 const Video = () => {
@@ -85,6 +93,30 @@ const Video = () => {
           </div>
           <div className={styles.photo_item}>
             <img src={photo_4} alt="" />
+          </div>
+          <div className={styles.photo_item}>
+            <img src={photo_5} alt="" />
+          </div>
+          <div className={styles.photo_item}>
+            <img src={photo_6} alt="" />
+          </div>
+          <div className={styles.photo_item}>
+            <img src={photo_7} alt="" />
+          </div>
+          <div className={styles.photo_item}>
+            <img src={photo_8} alt="" />
+          </div>
+          <div className={styles.photo_item}>
+            <img src={photo_9} alt="" />
+          </div>
+          <div className={styles.photo_item}>
+            <img src={photo_10} alt="" />
+          </div>
+          <div className={styles.photo_item}>
+            <img src={photo_11} alt="" />
+          </div>
+          <div className={styles.photo_item}>
+            <img src={photo_12} alt="" />
           </div>
         </div>
       </div>
