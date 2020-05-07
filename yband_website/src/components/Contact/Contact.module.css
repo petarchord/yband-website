@@ -61,13 +61,31 @@
 
 .text_holder h5 {
   font-size: 50px;
+  margin: 2rem;
 }
+
+.text_holder img {
+  width: 50px;
+  height: 50px;
+  filter: invert(1);
+  border: solid 2px black;
+  border-radius: 50%;
+  padding: 8px;
+  margin: 1rem;
+}
+
 .text_holder p {
-  font-size: 25px;
+  font-size: 34px;
+  color: white;
+  margin: 1rem;
 }
-.text_holder span {
-  font-size: 30px;
-  color: red;
+
+.email_wrapper {
+  margin-top: 5rem;
+}
+
+.email_wrapper p {
+  font-size: 23px;
 }
 
 .form_holder {
@@ -129,9 +147,51 @@
 #submit {
   margin-left: 28%;
   height: 50px;
-  width: 165px;
+  width: 200px;
   color: white;
-  font-size: 18px;
+  font-size: 17px;
   background: darkslategray;
   margin-top: 5px;
+}
+
+#submit:hover {
+  cursor: pointer;
+  filter: contrast(0.8);
+}
+
+.social_network {
+  margin-top: 5rem;
+  text-align: center;
+}
+
+.social_network h5 {
+  color: white;
+  font-size: 40px;
+}
+
+.network_holder {
+  filter: contrast(0.4);
+}
+
+.network_holder img:hover {
+  cursor: pointer;
+  filter: contrast(0.1);
+}
+
+#fb {
+  width: 60px;
+  height: 60px;
+  margin: 7px 2rem;
+}
+#insta {
+  width: 65px;
+  height: 65px;
+  /* margin: 1rem; */
+  margin: 5px 2rem;
+}
+#yt {
+  width: 65px;
+  height: 65px;
+  /* margin: 1rem; */
+  margin: 7px 2rem;
 }
