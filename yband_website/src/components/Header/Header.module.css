@@ -55,11 +55,11 @@ header {
 }
 
 .img_holder {
-  flex-basis: 12%;
+  flex-basis: 25%;
 }
 
 nav {
-  flex-basis: 50%;
+  flex-basis: 52%;
 }
 
 nav ul {
@@ -85,7 +85,7 @@ nav ul li a:hover {
 }
 
 .social_networks {
-  flex-basis: 18%;
+  flex-basis: 19%;
 }
 
 .social_networks ul li {
@@ -115,4 +115,8 @@ nav ul li a:hover {
 }
 .yt:hover {
   filter: invert(1);
+}
+
+.active {
+  color: rgb(32, 32, 32);
 }

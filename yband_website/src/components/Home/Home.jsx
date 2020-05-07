@@ -9,9 +9,9 @@ import petar from "../../assets/petar.jpg";
 import dj from "../../assets/dj.jpg";
 import machine from "../../assets/dim_masina.jpg";
 import decoration from "../../assets/dekoracija.jpg";
-import styles from "./Slider.module.css";
+import styles from "./Home.module.css";
 
-const Slider = () => {
+const Home = () => {
   return (
     <section>
       <div className={styles.container}>
@@ -158,4 +158,4 @@ const Slider = () => {
   );
 };
 
-export default Slider;
+export default Home;
