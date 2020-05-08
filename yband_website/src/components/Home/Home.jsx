@@ -1,4 +1,5 @@
 import React from "react";
+import Spinner from "../common/Spinner/Spinner";
 import cover from "../../assets/cover.jpg";
 import client_1 from "../../assets/danica.jpg";
 import client_2 from "../../assets/stefan.jpg";
@@ -15,6 +16,7 @@ const Home = () => {
   return (
     <section>
       <div className={styles.container}>
+        {/* <Spinner /> */}
         <div className={styles.welcome_text}>
           <p>
             Učinite vaše slavlje

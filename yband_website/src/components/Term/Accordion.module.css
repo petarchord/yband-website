@@ -17,6 +17,7 @@
   text-align: left;
   margin-top: 10px;
   border: none;
+  outline: none;
 }
 
 /* .accordion:after {
@@ -48,6 +49,7 @@
   color: white;
   border: none;
   font-size: 19px;
+  outline: none;
 }
 
 .sign {
